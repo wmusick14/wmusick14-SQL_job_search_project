@@ -2,7 +2,8 @@
 
 SELECT
     skills.skills AS skill_name,
-    COUNT(job.job_id) AS skill_count
+    COUNT(job.job_id) AS skill_count,
+    ROUND(COUNT(job.job_id) * 100.0 / SUM(COUNT(job.job_id)) OVER (), 2) AS skill_percentage
 FROM
     job_postings_fact AS job
 INNER JOIN
