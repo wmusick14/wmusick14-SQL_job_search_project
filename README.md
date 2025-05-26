@@ -146,7 +146,8 @@ LIMIT 5;
 ```
 **Results:** For this query there were 637313 qualifying jobs. The top five demanded skills in order of most demand to least demand are SQL, Excel, Python, Tableau, and Power BI. Below is a table of the total count of each of the top five skills along with their percentage of demand.
 
-![Top 10 Skills in Demand]()
+![Top 10 Skills in Demand](https://github.com/user-attachments/assets/ccdbff97-7e04-4124-acb3-a5493edead34)
+
 
 | Skills   | Skill Count | Skill Percentage|
 |----------|-------------|-----------------|
